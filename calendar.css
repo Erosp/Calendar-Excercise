@@ -1,0 +1,72 @@
+#divInputs{
+    float: left;
+    margin-left: 100px;
+    border: 3px dashed blue;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+#divCaption{
+    float: right;
+    margin-right: 100px;
+    border: 3px dashed red;
+    padding: 10px 20px;
+    width: 200px;
+}
+.titleArea{
+    margin: 0 0 10px;
+    text-align: center;
+}
+#divCalendar{
+    clear: left;
+    text-align: center;
+}
+.month-calendar{
+    border: 1px solid black;
+    width: 210px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.cal-header{
+    width: 210px;
+    text-align: center;
+}
+.cal-month-title{
+    width: 210px;
+    text-align: center;
+}
+.cal-day-row{
+    width: 210px;
+}
+.square{
+    background: #6FE175;
+    width: 30px;
+    height: 20px;
+    display: block;
+    float: left;
+    margin: 0;
+    text-align: center;
+    padding-top: 3px;
+}
+.weekend{
+    background: #FBF24C;
+}
+.empty{
+    background: #AFAEAE;
+}
+.holyday{
+    background: #DB4545;
+}
+.containerInput{
+    height: 30px;
+}
+.input{
+    width: 173px;
+}
+.containerTextCaption{
+    margin: 10px 10px;
+}
+.textCaption{
+    line-height: 25px;
+    margin-left: 5px;
+}

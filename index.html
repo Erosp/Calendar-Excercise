@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Calendar</title>
+        <link href="calendar.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <center><h1>Calendar</h1></center>
+        <div id="divInputs">
+            <h2 class="titleArea">Inputs:</h2>
+            <table>
+                <tr class="containerInput">
+                    <td><label for="start">Start Day:</label></td>
+                    <td><input type="date" id="start" class="input"/></td>
+                </tr>
+                <tr class="containerInput">
+                    <td><label for="number">Number of Days:</label></td>
+                    <td><input type="number" min="1" id="number" class="input"/></td>
+                </tr>
+                <tr class="containerInput">
+                    <td><label for="country">Country Code:</label></td>
+                    <td><input type="text" id="country" class="input"/></td>
+                </tr>
+                <tr class="containerInput">
+                    <td colspan="2" align="center"><button id="generate">Generate Calendar</button></td>
+                </tr>
+                <tr class="containerInput">
+                    <td><label for="holyday">Add holyday:</label></td>
+                    <td><input type="date" id="holyday" class="input"/></td>
+                </tr>
+                <tr class="containerInput">
+                    <td colspan="2" align="center"><button id="addHolyday">Add Holyday</button></td>
+                </tr>
+            </table>
+        </div>
+        <div id="divCaption">
+            <h2 class="titleArea">Caption:</h2>
+            <div class="containerTextCaption">
+                <label class="square"></label><label class="textCaption">Weekdays</label><br>
+            </div>
+            <div class="containerTextCaption">
+                <label class="square weekend"></label><label class="textCaption">Weekends</label><br>
+            </div>
+            <div class="containerTextCaption">
+                <label class="square holyday"></label><label class="textCaption">Holydays</label>
+            </div>
+            <div class="containerTextCaption">
+                <label class="square empty"></label><label class="textCaption">Invalid Days</label>
+            </div>
+        </div>
+        <div id="divCalendar"></div>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" src="calendar.js"></script>
+    </body>
+</html>
